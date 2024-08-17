@@ -1,0 +1,77 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: rgb(186,174,238);
+  background: linear-gradient(90deg, rgba(186,174,238,1) 0%, rgba(179,214,213,1) 39%, rgba(0,209,255,1) 92%, rgba(180,208,216,1) 100%, rgba(57,97,223,1) 100%, rgba(87,18,232,1) 100%);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.quiz-selection {
+  background-color:  rgb(235, 235, 210); 
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  margin: 10px;
+}
+
+#quiz h2.question {
+  color: #333;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #ddd;
+  margin: 20px 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  margin-bottom: 15px;
+}
+
+ul li input[type="radio"] {
+  margin-right: 10px;
+}
+
+ul li label {
+  color: #555;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+ul li label:hover {
+  color: #000;
+}
+
+.btn {
+  text-align: center;
+}
+
+.btn button {
+  background-color: #28a745;
+  color: #fff;
+  font-size: 1em;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn button:hover {
+  background-color: #218838;
+}
